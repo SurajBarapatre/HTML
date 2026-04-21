@@ -1,33 +1,75 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
+    <title>HTML5 Multimedia Player</title>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home">
-        <h1>Hi, I'm Suraj Barapatre </h1>
-        <p>A Passionate Full Stack Web Developer</p>
-    </section>
+<table border="2" width="80%" align="center" cellpadding="8">
+<tr>
+<td>
 
-    <section id="projects">
-        <h2>My Work</h2>
-        <div class="project-card">
-            <h3>Project Title</h3>
-            <a href="#">View Live</a>
-        </div>
-    </section>
-	<footer>© 2026 <footer/>
+<h2>Welcome to the HTML5 Multimedia Player</h2>
+
+<ul>
+    <li><a href="#">Audio Player</a></li>
+    <li><a href="#">Video Player</a></li>
+    <li><a href="#">Image Gallery</a></li>
+</ul>
+
+<h3>Audio Player</h3>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+<h3>Video Player</h3>
+<iframe width="500" height="250"
+src="https://www.youtube.com/embed/XFu4VNBUtlc?si=77p4crvwf_GQmIIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>">
+
+<h3>Image Gallery</h3>
+<img src="img1.jpg" width="200" height="120">
+<img src="img2.jpg" width="200" height="120">
+<img src="img3.jpg" width="200" height="120">
+
+<h3>Multimedia Content Table</h3>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th colspan="3">Multimedia Player Features</th>
+    </tr>
+    <tr>
+        <th>Type</th>
+        <th>File</th>
+        <th>Format</th>
+    </tr>
+    <tr>
+        <td>Audio</td>
+        <td>audio.mp3</td>
+        <td>MP3</td>
+    </tr>
+    <tr>
+        <td>Video</td>
+        <td>video.mp4</td>
+        <td>MP4</td>
+    </tr>
+    <tr>
+        <td>Image</td>
+        <td>image1.jpg, image2.jpg</td>
+        <td>JPEG</td>
+    </tr>
+    <tr>
+        <td colspan="3">End of Multimedia List</td>
+    </tr>
+</table>
+
+<br>
+
+<p>© 2025 HTML5 Multimedia Player</p>
+
+</td>
+</tr>
+</table>
+
 </body>
 </html>
